@@ -1,0 +1,85 @@
+body * {
+    border: 1px solid black;
+}
+
+#wrap{
+    width: 1200px;
+    height: 1500px;
+    margin: auto;
+}
+
+header{
+    height:10%;
+    width: 100%;
+}
+
+section{
+    height: 80%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+
+#movie-menu{
+    float: right;
+    width: 25%;
+    height: 20px;
+    text-align: center;
+}
+
+#movie-guide{
+    width: 45%;
+    float: left;
+    border: 3px solid palevioletred;
+    border-radius: 10px;
+}
+
+#movie-benefits{
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+    border: 3px solid palevioletred;
+    border-radius: 10px;
+}
+
+.info-form{
+    width: 25%;
+    margin-left: 50px;
+    float: left;
+}
+.info-title{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color:  dimgrey;   
+    margin-bottom: 7px;
+}
+#ticketing-movie-info a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.movie-menu-rank{
+    color: brown;
+}
+hr{
+    margin: 0;
+    margin-bottom: 3px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.movie-title-li{
+    margin-top: 5px;
+}
+.movie-title-a{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
