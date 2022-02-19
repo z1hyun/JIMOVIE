@@ -1,0 +1,105 @@
+body * {
+    /* border: 1px solid black; */
+}
+
+#wrap {
+    margin: auto;
+    width: 1200px;
+    height: 1500px;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+}
+section{
+    height: 75%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+
+#login-menu{
+    width:25%;
+    margin-left: 38%;
+    height: 30px;
+}
+.login-menubar{
+    width: 49%;
+    background-color: slateblue;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    float: left;
+    height: 38px
+}
+.login-menubar a{
+    color: white;
+    
+    text-decoration: none;
+}
+
+#loginbar{
+    margin: auto;
+    width: 40%;
+    height: 30%;
+}
+.login-id-pwd input{
+    border: 1px solid gray;
+    background-color: pink;
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.login-logo{
+    margin-left: 25px;
+    width: 30px;
+    height:30px;
+    float: left;
+}
+.login-logo img{
+    width: 100%;
+    height: 100%;
+}
+#login-button-bar{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+#login-button{
+    width: 100%;
+    height: 30px;
+    background-color: thistle;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#search-id-pwd{
+    height: 40px;
+}
+ul{
+    padding:0%;
+    list-style: none;
+    margin: 0;
+}
+ul>li{
+    margin-left: 10px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+ul>li>a{
+    font-display: none;
+    color: gray;
+}

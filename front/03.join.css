@@ -1,0 +1,67 @@
+body * {
+    border: 1px solid black; 
+}
+
+#wrap {
+    margin: auto;
+    width: 1200px;
+    height: 1500px;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+}
+section{
+    height: 75%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+#user_profile{
+    margin: auto;
+    width: 50%;
+}
+.user-profile-text-form{
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+.user-profile-text span{
+    width: 100%;
+
+}
+.user-profile-input{
+    width: 78%;
+    float: left;
+}
+.user-profile-input input{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+#join-button{
+    width: 100%;
+    height: 30%;
+}
+#join-button input[type=submit]{
+    width: 100%;
+    background-color: plum;
+    color: purple;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,186 @@
+body * {
+    /* border: 1px solid black; */
+}
+
+#wrap {
+    margin: auto;
+    width: 1200px;
+    height: 1500px;
+}
+header{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    height: 5%;
+}
+
+section{
+    height: 85%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+#left-menu{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#logo{
+    width: 25%;
+    float: left;
+    margin-top: 45px;
+    margin-left: 75px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#right-menu{
+    margin-top: 5px;
+    width: 30%;
+    float: right;
+}
+#right-menubar {
+    list-style: none;
+    text-align: center;
+}
+
+#right-menubar>li{
+    width: 20%;
+    float:left;
+    cursor: pointer;
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+#menubar{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.menubar-title{
+    background-color: lightgray;
+    line-height: 45px;
+    height: 30px;
+    width: 19.8%;
+    float: left;
+    font-size: 16px;
+    border: none;
+    margin: 1px;
+}
+#menubar li{
+    list-style:none;
+    background-color: lightslategray;
+    height: 30%;
+    border-top: 1px solid white;
+
+}
+#menubar li a{
+    text-decoration: none;
+    color: black;
+}
+#menubar>li>ul{
+    padding: 0;
+    display: none;
+}
+
+#menubar>li:hover ul{
+    display: block;
+}
+
+#menubar li:hover{
+    color: white;
+}
+
+
+#menubar li>ul>li>a:hover{
+    color: white;
+}
+#menubar a{
+    display: block;
+}
+
+#slidebar{
+    width: 100%;
+    height: 15%;
+}
+#movie-chart{
+    width: 100%;
+    height: 30%;
+    margin-left: 150px;
+}
+.slidebar-img {
+    width: 100%;
+    height: 100%;
+}
+.slidebar-img img{
+width: 100%;
+height: 100%;
+}
+.movie-chart{
+    width: 15%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: ligh;
+
+}
+.movie-chart img{
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 8px;
+}
+.movie-top {
+    font-size: 14px;
+    color: goldenrod;
+}
+.movie-title{
+    font-weight: 600;
+    font-size: 16px;    
+
+}
+.movie-advance{
+    font-size: 12px;
+    color: gray;
+}
+#movie-video-img{
+    height: 30%;
+    width: 100%;
+    margin-top: 50px;
+}
+#movie-video-iframe {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-right: 5px solid gray;
+}
+#movie-video-iframe iframe{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+#movie-combo-img {
+    width: 45%;
+    height: 90%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#movie-combo-img img{
+    width: 100%;
+    height: 100%;
+
+}
