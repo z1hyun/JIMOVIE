@@ -1,0 +1,52 @@
+
+body * {
+    border: 1px solid black;
+    margin: auto;
+}
+
+#wrap{
+    width: 1200px;
+    height: 1500px;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+}
+section{
+    height: 75%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+#admin-menu{
+    padding: 0;
+    list-style:none;
+}
+#admin-menu li{
+    line-height: 30px;
+    height: 30px;
+    margin-top: 20px;
+    width: 19%;
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    background-color: thistle;
+}
+#admin-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: palevioletred;
+}
+
+#admin-menu a:hover{
+    color: purple;
+}
