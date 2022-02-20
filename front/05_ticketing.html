@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./05_ticketing.css">
 </head>
+
 <body>
     <div id="wrap">
 
@@ -15,16 +17,18 @@
         </header>
 
 
-        <section>
-            <div id="movie-menu">
-                <div id="movie-guide">예매 가이드</div>
-                <div id="movie-benefits">제휴 할인혜택</div>
+        <div>
+            <div id="movie-form">
+                <div id="movie-menu">
+                    <div id="movie-guide">예매 가이드</div>
+                    <div id="movie-benefits">제휴 할인혜택</div>
+                </div>
             </div>
             <div id="ticketing-movie-info" class="info-form">
                 <div id="movie-info-title" class="info-title">
                     <span>영화</span>
                 </div>
-                
+
                 <a href="#" class="movie-menu-rank">예매율순</a>
                 <a href="#" class="movie-menu-rank">가나다순</a>
                 <hr>
@@ -47,28 +51,116 @@
                         <span>극장</span>
                     </div>
 
-                <div id="movie-cinema">
+
                     <ul>
-                        <li> <a href="#">서울(18)</a></li>
-                        <li> <a href="#">경기도(12)</a></li>
-                        <li> <a href="#">인천(3)</a></li>
-                        <li> <a href="#">강원(1)</a></li>
-                        <li> <a href="#">대전/충청(10)</a></li>
-                        <li> <a href="#">대구(5)</a></li>
-                        <li> <a href="#">부산/울산(8)</a></li>
-                        <li> <a href="#">경상(5)</a></li>
-                        <li> <a href="#">광주/전라/제주(15)</a></li>
+                        <li class="movie-cinema"> <a href="#">서울(18)</a></li>
+                        <li class="movie-cinema"> <a href="#">경기도(12)</a></li>
+                        <li class="movie-cinema"> <a href="#">인천(3)</a></li>
+                        <li class="movie-cinema"> <a href="#">강원(1)</a></li>
+                        <li class="movie-cinema"> <a href="#">대전/충청(10)</a></li>
+                        <li class="movie-cinema"> <a href="#">대구(5)</a></li>
+                        <li class="movie-cinema"> <a href="#">부산/울산(8)</a></li>
+                        <li class="movie-cinema"> <a href="#">경상(5)</a></li>
+                        <li class="movie-cinema"> <a href="#">광주/전라/제주(15)</a></li>
                     </ul>
+
+                    <div id="movie-cinema-area">
+                        <ul>
+                            <li class="cinema-area"><a href="#">강남</a> </li>
+                            <li class="cinema-area"><a href="#">건대입구</a> </li>
+                            <li class="cinema-area"><a href="#">구로</a> </li>
+                            <li class="cinema-area"><a href="#">대학로</a> </li>
+                            <li class="cinema-area"><a href="#">동대문</a> </li>
+                            <li class="cinema-area"><a href="#">명동</a> </li>
+                            <li class="cinema-area"><a href="#">상봉</a> </li>
+                            <li class="cinema-area"><a href="#">송파</a> </li>
+                            <li class="cinema-area"><a href="#">압구정</a> </li>
+                            <li class="cinema-area"><a href="#">영등포</a> </li>
+                            <li class="cinema-area"><a href="#">왕십리</a> </li>
+                            <li class="cinema-area"><a href="#">중계</a> </li>
+                            <li class="cinema-area"><a href="#">천호</a> </li>
+
+                        </ul>
+                    </div>
                 </div>
+
+                <div id="info-date-form">
+                    <div class="info-title" id="info-date">
+                        <span>날짜</span>
+                    </div>
+                    
+                    <div id="movie-info-day">
+                        <ul>
+                            <li><a href="#">20일</a></li>
+                            <li><a href="#">21일</a></li>
+                            <li><a href="#">22일</a></li>
+                            <li><a href="#">23일</a></li>
+                            <li><a href="#">24일</a></li>
+                            <li><a href="#">25일</a></li>
+                            <li><a href="#">26일</a></li>
+                            <li><a href="#">27일</a></li>
+                            <li><a href="#">28일</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="info-form" id="info-time-form">
+                    <div class="info-title">
+                        <span>시간</span>
+                    </div>
+
+                    <div id="info-month">
+                        <span>3월</span>
+                    </div>
+
+                    <hr class="movie-cinema-time-hr">
+
+                    <div id="movie-info-time">
+                        
+                        <ul class="movie-info-cinema">
+                            <li><a href="#"> 9:00 </a><span>99석</span> </li>
+                            <li><a href="#"> 12:20 </a><span>99석 </span> </li>
+                            <li><a href="#"> 14:10 </a><span>99석 </span> </li>
+                            <li><a href="#"> 18:30 </a><span>97석 </span> </li>
+                            <li><a href="#"> 19:00 </a><span>60석 </span> </li>
+                            <li><a href="#"> 22:30</a><span>90석 </span> </li>
+                        </ul>
+                        <hr class="movie-cinema-time-hr">
+                        <ul class="movie-info-cinema">
+                            <li><a href="#"> 8:50 </a><span>50석</span> </li>
+                            <li><a href="#"> 10:30 </a><span>80석</span> </li>
+                            <li><a href="#"> 14:00 </a><span>60석</span> </li>
+                            <li><a href="#"> 18:20 </a><span>99석</span> </li>
+                            <li><a href="#"> 22:00 </a><span>60석</span> </li>
+                            <li><a href="#"> 23:10 </a><span>60석</span> </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
-   
-        <footer>
+            
+            <div id="ticketing-info">
+                <div id="ticketing-movie-img"><img src="../photo/주술회전0.jfif" alt=""></div>
+                <div id="ticketing-movie-title">
+                    <span id="ticket-movie-title">극장판 주술회전0</span><br>
+                    <span id="ticket-movie-area">JIOMOVIE 장소 : 경기도 양주</span>
+                </div>
+                <div id="select-button-form">
+                    <button id="select-button">
+                        좌석선택하기
+                    </button>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
 
-        </footer>
+    <footer>
+
+    </footer>
 
 
     </div>
 </body>
+
 </html>

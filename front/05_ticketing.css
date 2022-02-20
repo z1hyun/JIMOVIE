@@ -1,5 +1,5 @@
 body * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #wrap{
@@ -22,7 +22,11 @@ footer{
     height: 10%;
     width: 100%;
 }
-
+#movie-form{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
 #movie-menu{
     float: right;
     width: 25%;
@@ -49,6 +53,9 @@ footer{
     width: 25%;
     margin-left: 50px;
     float: left;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(246, 209, 216);
 }
 .info-title{
     width: 100%;
@@ -58,6 +65,11 @@ footer{
     color: white;
     background-color:  dimgrey;   
     margin-bottom: 7px;
+}
+.movie-cinema a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
 }
 #ticketing-movie-info a{
     text-decoration: none;
@@ -74,12 +86,173 @@ ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    float: left;
+    text-align: center;
+}
+
+#movie-title-ul{
+    width: 100%;
 }
 .movie-title-li{
     margin-top: 5px;
+    width: 100%;
+    border-bottom: 2px solid grey;
+    
+}
+#movie-title{
+    overflow: scroll;
+}
+#movie-title scroll{
+width: 10px;
+background-color: palevioletred;
 }
 .movie-title-a{
     color: black;
     font-size: 16px;
     font-weight: 600;
+    width: 100%;
+}
+#movie-cinema-area {
+    height: 265px;
+    width: 100%;
+}
+#movie-cinema-area ul{
+    margin-left: 10px;
+}
+.movie-cinema{
+    margin-left: 10px;
+    border: 1px solid gray;
+    background-color: salmon;
+}
+.cinema-area{
+    width: 120px;
+    font-size: 13px;
+    border: 1px solid burlywood;
+    background-color: wheat;
+}
+.cinema-area a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#info-date-form{
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(255, 209, 216);
+}
+#info-date-form a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border-bottom: 1px solid brown;
+}
+
+#info-month{
+    width: 100%;
+    text-align: center;
+}
+#info-month span{
+    background-color: beige;
+    border: 3px solid saddlebrown;
+    font-size: 18px;
+    font-weight: 600;
+    color: sandybrown;
+}
+#movie-info-day{
+ width: 100%;
+ height: 265px;
+}
+#info-time-form{
+    margin-left: 0;
+    margin-right: 50px;
+}
+#movie-info-day ul{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+#movie-info-day li{
+    margin-top: 5px;
+}
+
+.movie-info-cinema {
+    margin-bottom: 20px;
+}
+
+.movie-info-cinema li{
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 13px;
+    font-size: 14px;
+    float: left;
+}
+
+.movie-info-cinema a{
+    color: rebeccapurple;
+    font-weight:800;
+    text-decoration: none;
+    border-right: 1px solid gray;
+}
+.movie-info-cinema span{
+    margin-left: 5px;
+}
+.movie-cinema-time-hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: plum;
+    height: 3px;
+}
+#ticketing-info{
+    margin-top: 500px;
+    width: 100%;
+    height: 200px;
+     background-color: black;
+}
+#ticketing-movie-img{
+    margin-left: 100px;
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#ticketing-movie-img img{
+    width: 100%;
+    height: 100%;
+    border:1px solid red;
+    border-radius: 3px ;
+}
+
+#ticketing-movie-title{
+    width: 30%;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 140px;
+    line-height: 40px;
+}
+#select-button-form{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 125px;
+}
+
+#select-button{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
 }

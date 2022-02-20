@@ -1,0 +1,22 @@
+body * {
+    border: 1px solid black;
+    margin: auto;
+}
+#wrap{
+    width: 1200px;
+    height: 1500px;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+}
+section{
+    height: 80%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
