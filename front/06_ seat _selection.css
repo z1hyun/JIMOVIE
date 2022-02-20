@@ -1,5 +1,5 @@
 body * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
 }
 #wrap{
@@ -19,4 +19,216 @@ section{
 footer{
     height: 10%;
     width: 100%;
+}
+#right-menubar{
+    width: 25%;
+    float: right;
+}
+
+#ticketing-form{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#ticketing-title{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color:  dimgrey;   
+    margin-bottom: 7px;
+}
+
+
+#ticketing-info{
+    margin-top: 500px;
+    width: 100%;
+    height: 200px;
+     background-color: black;
+
+}
+#ticketing-movie-img{
+    margin-left: 100px;
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#ticketing-movie-img img{
+    width: 100%;
+    height: 100%;
+    border:1px solid red;
+    border-radius: 3px ;
+}
+
+#ticketing-movie-title{
+    width: 30%;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+#select-button-form{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 0px;
+}
+
+#select-button{
+    width: 80%;
+    height: 80%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.price-bar{
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+#price-bar{
+    width: 50%;
+    float: left;
+    border-right: 2px solid gray;
+}
+.price-condition{
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+
+.price-ul{
+    padding: 0;
+    list-style:none;
+}
+.price-ul li{
+    width: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    background-color: lightgray;
+    border: 2px solid brown;
+}
+.price-ul a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.price-ul a:visited{
+    background-color: antiquewhite;
+}
+
+#area-bar{
+    width:47%;
+    float: right;
+    margin-top:30px;
+}
+#area-bar span{
+    font-size: 14px;
+}
+#vacancy{
+    font-weight: 800;
+    color: tomato;
+}
+#area-bar p{
+    margin-top:30px
+}
+#area-bar b{
+    font-size: 24px;
+    color: salmon;
+}
+
+hr{
+    margin-top:170px;
+    background-color: gray;
+    height: 3px;
+}
+#seat-select{
+background-color: antiquewhite;
+}
+#screen{
+    margin: auto;
+    margin-top: 30px;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: darksalmon;
+    background: repeating-linear-gradient(45deg, darksalmon, wheat 10px, darksalmon 0, wheat 20px);
+    margin-bottom: 50px;
+}
+.seat{
+    height: 25px;
+    width: 50%;
+}
+.seat ul {
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+}
+.seat-no{
+    width: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    float: left;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+.seat li{
+    float: left;
+    margin-left: 3px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid salmon;
+    background-color: wheat;
+}
+.seat a{
+    text-decoration: none;
+    color: gray;
+}
+.seat a:visited{
+    background-color: pink;
+}
+
+#select-menubar{
+    margin-top: 50px;
+    margin-left: 800px;
+    width:150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: wheat;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+}
+#select-menubar p{
+    margin-top: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+#seat-area-no{
+    width:200px;
+    border: 1px solid blue;
+    float: left;
+}
+
+#seat-price{
+    width: 200px;
+    border: 1px solid blue;
 }
