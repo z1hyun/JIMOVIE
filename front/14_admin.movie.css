@@ -1,0 +1,146 @@
+
+body * {
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+#wrap{
+    width: 1200px;
+    height: 1500px;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+}
+section{
+    height: 75%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+
+#admin-menu{
+    padding: 0;
+    list-style:none;
+}
+#admin-menu li{
+    line-height: 30px;
+    height: 30px;
+    margin-top: 20px;
+    width: 19%;
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    background-color: thistle;
+}
+#admin-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: palevioletred;
+}
+
+#admin-menu a:hover{
+    color: purple;
+}
+
+#admin-menu{
+    padding: 0;
+    list-style:none;
+}
+#admin-menu li{
+    line-height: 30px;
+    height: 30px;
+    margin-top: 20px;
+    width: 19%;
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    background-color: thistle;
+}
+#admin-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: palevioletred;
+}
+
+#admin-menu a:hover{
+    color: purple;
+}
+
+.movie-menu-hr{
+    height: 3px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+#movie-menu{
+    height: 30px;
+    padding: 0;
+    list-style: none;
+}
+#movie-menu li{
+    width: 48%;
+    float: left;
+    text-align: center;
+}
+
+#movie-menu a{
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+#movie-write-button{
+    margin-top: 20px;
+    width: 80%;
+    heigh:30px;
+    text-align: right;
+}
+#movie-cinema-write-button{
+    width: 120px;
+    height: 30px;
+    background-color: thistle;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: slateblue;
+}
+#movie-cinema-event{
+    margin-top: 20px;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+    border-spacing: 20px;
+    border: 2px solid orchid;
+}
+#movie-cinema-event {
+    text-decoration: none;
+    color: black;
+}
+.movie-cinema-a a{
+    text-decoration: none;
+    color: black;
+}
+#edit-button{
+    color: gray;
+    border-right: 2px solid black;
+
+}
+#delete-button{
+    color: red;
+}
+.edit-delete-button{
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}

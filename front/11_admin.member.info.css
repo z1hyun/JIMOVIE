@@ -66,6 +66,9 @@ footer{
     float: left;
     text-align: center;
 }
+#member-menu li :visited{
+    color:red;
+}
 #member-menu a{
     color: darkslategray;
     text-decoration: none;
