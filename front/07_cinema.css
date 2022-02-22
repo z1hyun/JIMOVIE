@@ -1,0 +1,48 @@
+body * {
+    border: 1px solid black;
+    margin: auto;
+}
+
+#wrap{
+    width: 1200px;
+    height: 1500px;
+}
+header{
+    height: 10%;
+    width: 100%;
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+}
+section{
+    height: 75%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+
+#cinema-text{
+    font-size: 20px;
+    padding-left: 30px;
+}
+#cinema-area-info{
+    height: 300px;
+    width: 80%;
+}
+#cinema-info ul{
+    width: 100%;
+    height: 25px;
+    padding: 0;
+    list-style:none;
+}
+#cinema-info li{
+    margin: auto;
+    width: 12%;
+    text-align: center;
+    float: left;
+}

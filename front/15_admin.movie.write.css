@@ -1,3 +1,75 @@
 body * {
     border: 1px solid black;
 }
+
+#wrap{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+}
+nav{
+    height: 5%;
+    width: 100%;
+}
+section{
+    height: 80%;
+    width: 100%;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+}
+
+#write-form{
+    width: 80%;
+    margin:auto;
+    margin-top: 30px;
+    text-align: center;
+    border-spacing: 0;
+}
+.write-form-text{
+    width: 80px;
+    font-size: 13px;
+}
+#write-form td{
+    border: 2px solid salmon;
+}
+#write-form input{
+    width: 99%;
+    height: 30px;
+    border: none;
+}
+#write-form textarea{
+    width :99%;
+    height: 400px;
+    border: none;
+}
+
+#write-cansle-button{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#write-cansle-button button{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    background-color:plum;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#write-cansle-button button:hover{
+    color: blueviolet;
+}
